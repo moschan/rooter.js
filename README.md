@@ -1,2 +1,2 @@
-# tiny_rooter.js
+# rooter.js
 tiny tiny javascript rooter

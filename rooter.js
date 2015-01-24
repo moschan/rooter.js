@@ -78,7 +78,7 @@ var Router = {
 
 	}
 	// global
-	window.Validator = new Validator();
+	window.Hoge = new Hoge();
 	window.common = common;
 
 })();
