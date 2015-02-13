@@ -56,35 +56,6 @@ var Router = {
 *
 */
 (function() {
-
-	/**
-	*
-	*  dummy function
-	*
-	*/
-	function Hoge() {
-		"use strict";
-		this.hoge = function() {
-		};
-	}
-
-
-	/**
-	*
-	*  common function
-	*
-	*/
-	function common() {
-
-	}
-	// global
-	window.Hoge = new Hoge();
-	window.common = common;
-
-})();
-
-$(document).ready(function() {
-
 	// initialize
 	Router.initilize();
 	Router.config('/');
@@ -99,5 +70,4 @@ $(document).ready(function() {
 
 	// Fire!!!
 	Router.check();
-
-});
+})();
